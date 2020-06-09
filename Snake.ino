@@ -53,8 +53,8 @@ void setup(){
 	pinMode(buttonLeft, INPUT);
 	pinMode(buttonRight, INPUT);
 
-	moveX = 0;
-	moveY = 0;
+	moveX = 0;	// posicion en X donde inicia la serpiente
+	moveY = 0;	// posicion en Y donde inicia la serpiente
 }
 
 void loop(){ 
@@ -130,5 +130,4 @@ void update(){
 	}
 	// Dibuja la comida con valores aleatorios para la posicion
 	display.drawRoundRect(cols*size, rows*size, size, size, 1, 1);
-	display.display();
 }
