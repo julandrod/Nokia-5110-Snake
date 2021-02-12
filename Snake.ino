@@ -22,7 +22,7 @@ TODO:
 #define buttonUp 	2
 #define buttonDown 	4
 #define buttonLeft	5
-#define buttonRight 3
+#define buttonRight	3
 
 Adafruit_PCD8544 display = Adafruit_PCD8544(CLK, DIN, DC, CE, RST);
 
